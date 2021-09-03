@@ -2,6 +2,7 @@
 ## Rewilding_Belgravia
 
 [![Jekyll site CI](https://github.com/SOliv1/rewilding-london/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/rewilding-london/actions/workflows/jekyll.yml)
+[![CI](https://github.com/SOliv1/rewilding-london/actions/workflows/blank.yml/badge.svg)](https://github.com/SOliv1/rewilding-london/actions/workflows/blank.yml)
 
 This project template has been rebuilt following the **Code Institute Solutions
 templates by A. Greaves**
