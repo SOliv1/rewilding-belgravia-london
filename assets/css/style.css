@@ -172,7 +172,7 @@ hr {
 }
 
 #times{
-    background-image: url('images/AdobeStock_87278999_Preview.jpeg');
+    background-image: url('/assets/css/images/AdobeStock_87278999_Preview.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
