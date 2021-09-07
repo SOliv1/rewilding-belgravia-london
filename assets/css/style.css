@@ -117,7 +117,15 @@ h2{
     float: right;
 }
 
-#center-about {
+#center-about-form {
+    width: 45%;
+    margin: 0 auto;
+    font-family: Lato;
+    color: #777777;
+}
+
+
+#center-about-heading {
     width: 33%;
     margin: 0 auto;
 }
@@ -244,7 +252,7 @@ footer{
         padding: 0;
     }
 
-    #center-about{
+    #center-about, #center-about-center {
         clear: both;
         width: 100%;
         float: left;
@@ -305,11 +313,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
-}
 
 #hero-image-2{
     height:600px;
@@ -321,3 +324,15 @@ footer{
     animation-fill-mode: forwards;
 }
 
+#welcome-joinus {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
+}
