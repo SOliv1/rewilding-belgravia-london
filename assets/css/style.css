@@ -292,6 +292,7 @@ footer{
         width:90%;
         height: 1200px;
         margin: 0 auto;
+        padding-bottom: 10PX;
     }
 
     .left-about-heading, .right-about-heading{

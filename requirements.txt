@@ -1,7 +1,6 @@
 breezy==3.0.2
 certifi==2019.11.28
 chardet==3.0.4
-click==8.0.1
 configobj==5.0.6
 dbus-python==1.2.16
 dnspython==2.1.0
