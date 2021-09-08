@@ -16,3 +16,5 @@ reptl-li platform-html and css styles mini project
 **python3 -m http.server**
 Frontend - using html, css and responsive media queries
 
+pip install -r requirements.txt
+npm install 
