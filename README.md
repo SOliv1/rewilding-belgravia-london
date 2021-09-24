@@ -15,7 +15,7 @@ reptl-li platform-html and css styles mini project
 
 Python3 -m http.server
 
-**python -m http.server --bind 127.0.0.1 808080
+**python -m http.server --bind 127.0.0.1 8000
 then use:
 
 python -m http.server on vscode local server
