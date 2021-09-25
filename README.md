@@ -13,12 +13,11 @@ This project template has been rebuilt following the **Code Institute Solutions
 templates by A. Greaves**
 reptl-li platform-html and css styles mini project
 
-Python3 -m http.server
-
-**python -m http.server --bind 127.0.0.1 8000
-then use:
-
-python -m http.server on vscode local server
+Python3 -m http.server (on local server)
+then use this
+if the above command does not work
+python -m http.server --bind 127.0.0.1 8000
+**
 
 Frontend - using html, css and responsive media queries
 

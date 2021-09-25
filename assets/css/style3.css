@@ -34,7 +34,7 @@ margin {
     margin-left: 15px;
     border-bottom-width: 20px;
     border-top-width: 20px;
-   
+
 }
 
 
@@ -199,7 +199,7 @@ p {
         float: right;
         }
 }
-    
+
 
 
     .btn.btn-secondary:hover,
@@ -211,8 +211,8 @@ p {
         color: #ce5a2b;
         }
 
-        
-    
+
+
     /*styles for tablet */
     @media (min-width: 768px) {
         .media img {
