@@ -55,8 +55,8 @@ h2{
 #hero-image{
     height:600px;
     width: 100%;
-    background: url('images/AdobeStock_193981927.jpg') no-repeat center center;
-
+    background: url('/images/AdobeStock_193981927.jpeg') no-repeat center center;
+ 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -152,7 +152,7 @@ hr {
 }
 
 #times{
-    background-image: url('images/AdobeStock_87278999_Preview.jpeg');
+    background-image: url('/images/AdobeStock_87278999_Preview.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
