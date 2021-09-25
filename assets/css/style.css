@@ -55,7 +55,7 @@ h2{
 #hero-image{
     height:600px;
     width: 100%;
-    background: url('media/AdobeStock_193981927.jpeg') no-repeat center center;
+    background: url('/images/AdobeStock_193981927.jpeg') no-repeat center center;
  
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -152,7 +152,7 @@ hr {
 }
 
 #times{
-    background-image: url('/images/AdobeStock_87278999_Preview.jpeg');
+    background-image: url('images/AdobeStock_193981927.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,7 +290,7 @@ footer{
 #hero-image-2{
     height:600px;
     width: 100%;
-    background: url('images/AdobeStock_325977963_Preview.jpeg') no-repeat center center;
+    background: url('/images/AdobeStock_193981927.jpeg') no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
