@@ -8,7 +8,42 @@
 
 body{
     font-family: Lato;
+<<<<<<< HEAD
     color: #000;
+=======
+    color: #777777;
+}
+
+h2{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+margin {
+    width:1200px;
+    left:auto;
+    right:auto;
+    top: 0;
+    bottom:0;
+    margin-top: 0px;
+    margin-left: ‒20;
+    margin-right: 0px;
+    margin-left: 25‒;
+    margin-left: 15px;
+    border-bottom-width: 20px;
+    border-top-width: 20px;
+
+}
+
+
+/*--- menu styles-pg2 ---*/
+
+body{
+    font-family: Oswold;
+    color: #777777;
+>>>>>>> 481122f7bae18bc3a7996d297f1c15bec6883e7a
 }
 
 h2{
@@ -260,12 +295,15 @@ footer{
         left:0px;
     }
 
-    #club-ethos{
-        width:90%;
-        height: 100px;
-        margin: 0 auto;
-        padding-bottom: 10PX;
-    }
+    /*styles for tablet */
+    @media (min-width: 768px) {
+        .media img {
+            height: 150px;
+            object-fit: contain;
+            min-height: 100%;
+            max-height: none;
+            border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
+        }
 
     .left-about-heading, .right-about-heading{
         width: inherit;

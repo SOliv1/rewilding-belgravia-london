@@ -52,17 +52,16 @@ h2{
     border-bottom: 1px solid #000;
 }
 
-#hero-image{
+#hero-image {
     height:600px;
     width: 100%;
-    background: url('/images/AdobeStock_193981927.jpeg') no-repeat center center;
- 
+    background: url('/images/AdobeStock_87278999_Preview.jpeg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-#hero-outer{
+#hero-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
@@ -114,7 +113,7 @@ h2{
 #right-about {
     padding-top: 30px;
     width: 33%;
- 
+
 }
 
 
@@ -149,8 +148,6 @@ hr {
     font-size: 280%;
 }
 
-}
-
 #times{
     background-image: url('images/AdobeStock_87278999_Preview.jpeg');
     background-repeat: no-repeat;
@@ -162,7 +159,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, 0);
     width: 19%;
     height: 300px;
     float: left;
@@ -237,7 +234,7 @@ footer{
         height: 150px;
         border-style: solid;
         border-bottom-width: 1px;
-        border-bottom-color: #fff; 
+        border-bottom-color: #fff;
         padding: 0;
     }
 
@@ -251,7 +248,7 @@ footer{
     #menu{
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
