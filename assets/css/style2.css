@@ -1,0 +1,17 @@
+body { background-color: #ffff;
+    color: #000;
+}
+#gallery { width: 900px; }
+#gallery ul { width: 300px; 
+           list-style-type: none;
+           float: center;
+}
+#gallery li { display: inline; 
+           float: left;
+           padding: 20px;
+}
+#gallery2 img { border-style: ridge; }
+figure { padding-top: 20px;
+      text-align: center; }
+figcaption { font-weight: bold;
+          font-size: 1.5em; }

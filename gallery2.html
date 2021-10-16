@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Image Gallery</title>
+<meta charset="utf-8">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/style2.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#gallery a').hover(function(){
+		var galleryHref = $(this).attr('href');
+		var galleryAlt = $(this).attr('title');
+		$('figure img').attr({ src: galleryHref, alt: galleryAlt });
+		$('figcaption').html(galleryAlt);
+		});
+});
+</script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Rewilding London</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                    </li>
+                    <li>
+                    <a class="active" href="gallery2.html">Gallery</a>
+                    </li>
+                    <li>
+                    <a class="active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+    </header>
+    
+   
+    <div id="gallery">
+        <br>
+        <br>
+        <ul>
+            <li>
+              <a href="images/AdobeStock_362716499_Preview.jpeg"  title="London Eye by Night"><img src="images/AdobeStock_362716499_Preview.jpeg" width="100" height="75"  alt="London Eye by Night"></a>
+            </li>
+            <li>
+              <a href="images/AdobeStock_426909216_Preview (1).jpeg" title="London Parks"><img src="images/AdobeStock_426909216_Preview (1).jpeg" width="100" height="75" alt="London Parks"></a>  
+            </li>
+            <li>
+              <a href="images/two-butterflies.jpeg" title=""><img src="images/AdobeStock_193981927.jpeg" width="100" height="75" alt=""></a>
+            </li>
+            <li>
+               <a href="images/AdobeStock_325977963_Preview.jpeg" title="Two Butterflies in a meadow"><img src="images/AdobeStock_325977963_Preview.jpeg" width="100" height="75" alt="Two Butterflies in a Meadow"></a>
+            </li>
+            <li>
+               <a href="images/sunflowercloseup.jpeg" title="Sunflowers at a local garage"><img src="images/sunflowercloseup.jpeg" width="100" height="75" alt="Sunflower at a local garage"></a>
+            </li>
+            <li>
+               <a href="images/sunflower-1.jpeg" title="Sunflowers"><img src="images/sunflower-1.jpeg" width="100" height="75" alt="Sunflowers"></a>
+            </li>
+        </ul>
+        <figure>
+         <img src="images/sunflower-2.jpeg" width="400" height="300" alt="Sunflowers">
+        <figcaption>Sunflowers</figcaption>
+        </figure>
+        <br><br>
+    </div>
+    
+    <footer>
+        <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Powered by KUK</div></div>
+        <small><i>Copyright &copy; 2021 Powered by KUK</i></small>
+    </footer>
+    
+
+</body>
+</html>
