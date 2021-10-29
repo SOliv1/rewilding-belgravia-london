@@ -360,6 +360,18 @@ footer{
     border-radius: 2px;
 }
 
+.button seeds  { 
+    border-radius: 60px;
+    padding: 1em; 
+	color: #FFFFFF;
+	background-color: #E38690;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
 .text-input:hover {
     border-color: #f16c6b;
 }
