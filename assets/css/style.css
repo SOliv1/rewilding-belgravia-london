@@ -148,6 +148,37 @@ hr {
     font-size: 280%;
 }
 
+#seeds div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 6px;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+h1 { 
+    margin-bottom: 2em; 
+}
+
+.button  { 
+    border-radius: 60px;
+    padding: 1em; 
+	color: #FFFFFF;
+	background-color: #E38690;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
 #times{
     background-image: url('../images/AdobeStock_87278999_Preview.jpeg');
     background-repeat: no-repeat;
