@@ -360,6 +360,13 @@ footer{
     border-radius: 2px;
 }
 
+.shade {
+    background-color: #a8cff1;
+    margin-bottom: 40px;
+    padding: 60px 0;
+    position: relative;
+}
+
 .button seeds  { 
     border-radius: 60px;
     padding: 1em; 
@@ -372,6 +379,9 @@ footer{
 	text-decoration: none;
 }
 
+.button:link { color : #FFFFFF; }
+.button:visited { color : #CCCCCC; }
+.button:hover { color : #965251; background-color: #F7DEE1; }
 .text-input:hover {
     border-color: #f16c6b;
 }
@@ -407,27 +417,53 @@ footer{
         margin-top: 0;
     }
 
-    #left-about,
-    #right-about {
-        width: 100%;
+    #left-about{
+        padding-top: 30px;
+        width: 33%;
         float: left;
-        padding: 0;
+    }
+    
+    #right-about {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
     }
 
     #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
+        width: 33%;
+        margin: 0 auto;
+    }   
 
+    .left-about-heading {
+        width: 50%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    
+    .right-about-heading {
+        width: 50%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    
+    .right-about-heading h2 {
+        text-align: right;
+    }
     #times div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
     }
+    
 
+    #bottom-img {
+        padding: 20px;
+    }
     hr {
         display: none;
     }
