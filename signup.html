@@ -10,7 +10,17 @@
 
     <!-- Stylesheet -->
     <link href="assets/css/style3.css" rel="stylesheet" type="text/css" />
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            {% with messages = get_flashed_messages() %} {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %} {% endwith %}
 </head>
+
 
 <body>
     <header>
@@ -41,7 +51,7 @@
     </section>
 
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <form method="POST" action="https://formdump.codeinstitute.net" class="signup-form">
             <h2><i class="fas fa-heartbeat"></i> Let's get you signed up!</h2>
             <label for="fname">First Name</label>
             <input class="text-input" id="fname" name="first_name" type="text" required>
@@ -51,14 +61,18 @@
 
             <label for="email">Email Address</label>
             <input class="text-input" type="email" id="email" name="email_address" required>
-
+            
+            <label for="textarea">Comments or Questions</label>
+            <input class= "text-input" type="textarea" id="textarea" rows="8" name="comments" class="form-control" placeholder="Ask a Question / Leave a Comment" >
+            <p class="help-block text-danger"></p>
+            <div id="success"></div>
+            <div class="form-group">
             <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
+            <input type="radio" id="road" name="running_preference" value="road">
             <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <input type="radio" id="trail" name="running_preference" value="trail">
             <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-
+            <input type="radio" id="both" name="gardenig_preference" value="both" >
             <input class="join-button" type="submit" value="Let's Plant Seeds!">
         </form>
     </section>
