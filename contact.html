@@ -21,7 +21,7 @@
                     <a href="contact.html">Contact</a>  
                 </li>
                 <li>
-                    <a href="signup.html">Sign Up</a>
+                    <a href="signup2.html">Sign Up</a>
                 </li>
                 <li>
                     <a class="active" href="gallery.html">Gallery</a>
@@ -59,6 +59,23 @@
                                     <div class="form-row text-center">
                                         <div class="col-md-4 mb-3">
                                             <button type="submit" class="btn btn-secondary">Send Your Comments</button>
+                                            <!--
+                                            <button onClick="return setTimeout(clearForm, 3000);"
+                                            name="submit" type="submit" id="contact-submit" 
+                                            class="submit btn btn-secondary center-block submitbtn"  
+                                            data-submit="...Sending" 
+                                            data-toggle="modal" data-target="
+                                            .bd-example-modal-sm">Send it!
+                                            </button>-->
+                                            <!-- Modal html, triggered on sending email from contact.html --
+                                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                                                    aria-hidden="true">
+                                                <div class="modal-dialog modal-sm">
+                                                    <div class="modal-content">
+                                                        <h3 class="modal-text">We'll be in contact soon, thanks!</h3>
+                                                    </div>
+                                                </div>
+                                            </div>-->
                                         </div>
                                     </div>
                                 </div>
@@ -77,11 +94,11 @@
         <div class="row">
             <div class="col-sm-4 md-8">
                 <div class="emailer">
-                    <h5>Want to know more about Procol Harum, Beyond the Pale.</h5>
+                    <h5>Want to know more about Rewidling London</h5>
                     <h5>Prefer to send us an email:</h5>
                     <h5 id="email-header">Email us</h5>
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:hello@procolharum.co.uk">hello [@] procolharum.co.uk
+                    <a href="mailto:hello@">hello@kuk.com [@] kuk 
                     </a>
                 </div>
             </div>
@@ -91,9 +108,19 @@
     <footer class="container-wrapper">
         
     </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById("emailform").reset(); //clear form once email has been sent for better UX
+              return false; // To block from loading a new page
+              }
+                //modal from bootstrap 4
+              $("#emailform").on('submit', function(e) {
+              $('#myModal').modal('show');
+              e.preventDefault();
+              });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
