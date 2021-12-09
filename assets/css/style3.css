@@ -70,7 +70,7 @@ h1, h2{
     height:600px;
     width: 100%;
     background: url("../images/two-butterflies.jpeg") no-repeat center center;
-
+    background-size: cover;
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -188,16 +188,19 @@ hr {
     background: url('../images/plant-seeds1.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
 #circle-cover-bg-1 {
     background: url('../images/seedgrowing.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
 #circle-cover-bg-2 {
     background: url('https://soliv1.github.io/rewilding-london/images/plantseeds.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
 
 /* Event times */
