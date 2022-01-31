@@ -16,6 +16,7 @@ reptl-li platform-html and css styles mini project
 Python3 -m http.server (on local server)
 then use this
 if the above command does not work
+**
 python -m http.server --bind 127.0.0.1 8000
 **
 

@@ -1,27 +1,31 @@
-  
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
 }
 
+.layout.shade.shade--top.shade--bottom.downloads.text-muted.py-5 {
+    color: #a8cff1;
+}
+
 /* headings and logo */
 
-h1, h2{
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -29,12 +33,13 @@ h1, h2{
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
 }
 
@@ -49,45 +54,48 @@ h1, h2{
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero image and cover text */
 
-#hero-outer{
-    height:600px;
+#hero-outer {
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image{
-    height:600px;
+#hero-image {
+    height: 600px;
     width: 100%;
-    background: url("../images/two-butterflies.jpeg") no-repeat center center;
+    background: url("/images/two-butterflies.jpeg") no-repeat center center;
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background-size: cover;
 }
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
@@ -114,11 +122,11 @@ h1, h2{
 
 /* Club ethos */
 
-#club-ethos{
-    height: 600px;
+#club-ethos {
+    min-height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -188,21 +196,26 @@ hr {
     background: url('../images/plant-seeds1.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
+
 #circle-cover-bg-1 {
     background: url('../images/seedgrowing.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
+
 #circle-cover-bg-2 {
     background: url('https://soliv1.github.io/rewilding-london/images/plantseeds.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    background-size: cover;
 }
 
 /* Event times */
 
-#times{
+#times {
     background-image: url('../images/AdobeStock_87278999_Preview.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +226,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -236,20 +249,20 @@ hr {
     position: relative;
 }
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -265,7 +278,7 @@ footer{
     column-gap: 0px;
 }
 
-#photo img{
+#photo img {
     width: 100%;
 }
 
@@ -289,7 +302,7 @@ footer{
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -327,8 +340,8 @@ footer{
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -339,13 +352,14 @@ footer{
         margin-top: 0;
     }
 
-    #left-about, #right-about {
-        width:100%;
-        float:left;
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
@@ -365,48 +379,63 @@ footer{
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
-    #menu{
+    #menu {
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
 
-    #cover-text{
-        left:0px;
+    #cover-text {
+        left: 0px;
     }
 
-    #club-ethos{
-        width:90%;
+    #club-ethos {
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p{
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px 0 20px;
     }
 
-    #photo{
+    #photo {
         column-count: 3;
     }
 }
 
+body {
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+}
+
+/*news page background */
+    #news {
+    background-color: #a8cff1;
+}
+
+
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
+@media screen and (max-width: 800px) {
+    #photo {
         column-count: 2;
     }
 }
+
