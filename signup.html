@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="assets/css/style1.css" />
+  </head>
+  <div>
+    <header>
+      <a href="index.html">
+          <h2 ID="logo">Rewilding Belgravia</h2>
+      </a>
+      <nav>
+          <ul id="menu">
+              <li>
+              <a class="active" href="signup2.html">Sign Up</a>
+              </li>
+              <li>
+              <a class="active" href="gallery2.html">Gallery</a>
+              </li>
+              <li>
+              <a class="active" href="gallery.html">Gallery</a>
+              </li>
+              <li>
+              <a href="index.html">Home</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+  <section>
+    <div class="row ">
+      <div style="padding: 20px;">
+          <img class="card-img bg-transparent" src="..\images\winterscene.png" width="100%">
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <div class="container">
+    <hr>
+      <form id="contact">
+        <h3>Contact Form</h3>
+        <h4><i class="fas fa-heartbeat"></i> Let's get you signed up!</h4>
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+            class="username"/>
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+            class="email"/>
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Type your message here...."
+            tabindex="5"
+            required
+            class="message"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+            class="submit">
+            Submit
+          </button>
+        </fieldset>
+        <div class="layout shade float-end mb-1"  id="center-about">
+          <form id="contact" class="signup-form">
+            <h2 class="layout shade float-end mb-1"  id="center-about">
+            <i class="fas fa-heartbeat"></i> Get in touch!</h2>
+            <div class="emailer">
+              <h5>Want to know more about Rewilding Belgravia</h5>
+              <h5>Prefer to send us an email:</h5>
+              <h5 id="email-header">Email us</h5>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:hello@rewildingbelgravialondon.com">hello [@] rewildingbelgravialondon.com
+              </a>
+            </div>
+
+      </form>
+    </div>
+
+
+    <!-- loader -->
+    <div class="loader">
+      <img
+        src="https://media.giphy.com/media/MEiZ5h8lOkM7rwideE/giphy.gif"
+        alt=""/>
+    </div>
+
+
+    <section>
+      <hr>
+      <br><br>
+      <div class="row ">
+        <div style="padding: 20px;">
+            <img class="card-img bg-transparent" src="..\images\winterscene.png" width="100%">
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript">
+
+     /**  User ID user_OxfJZYwpeVsS9XIdsUY0r
+          Access Token e971b6cd07f15c120b57c46424692ede */
+
+      (function () {
+        // emailjs.init("USERID");
+        emailjs.init("user_OxfJZYwpeVsS9XIdsUY0r");
+      })();
+
+      /**
+        emailjs.send("SERVICE ID", "TEMPLATE NAME", {
+          to_name: "USERNAME",
+          from_name: "FROM NAME",
+          message: "MESSAGE",
+        });
+       **/
+
+      function validate() {
+        let loader = document.querySelector(".loader");
+        let name = document.querySelector(".username");
+      //let fName = document.querySelector(".from_fName");//
+      //let lName = document.querySelector(".from_lName");//
+        let email = document.querySelector(".email");
+        let msg = document.querySelector(".message");
+        let btn = document.querySelector(".submit");
+
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          if (name.value == "" || email.value == "" || msg.value == "") {
+            emptyerror();
+          } else {
+            setTimeout(function(){
+               location.reload();
+            }, 3000);
+            sendmail(name.value, email.value, msg.value);
+            success();
+            loader.style.display = "none";
+          }
+        });
+      }
+      validate();
+
+      function sendmail(name, email, msg) {
+        emailjs.send("service_g3a7qft","template_hqotm5r",{
+          to_name: "Rewidling London website",
+          from_name: name,
+          from_email: email,
+          message: msg,
+        });
+      }
+
+      function emptyerror() {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Fields cannot be empty!",
+        });
+      }
+
+      function error() {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+        });
+      }
+
+      function success() {
+        Swal.fire({
+          icon: "success",
+          title: "Success...",
+          text: "Successfully sent message",
+        });
+      }
+    </script>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/1e03de6694.js" crossorigin="anonymous"></script>
+  </body>
+</html>
