@@ -8,7 +8,7 @@
 
 ### Link to site can be viewed here
 
-  https://soliv1.github.io/rewilding-london/
+  https://soliv1.github.io/rewilding-belgravia-london/
 
 This project template has been rebuilt following the **Code Institute Solutions
 templates by A. Greaves**
