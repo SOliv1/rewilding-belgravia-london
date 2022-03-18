@@ -26,11 +26,16 @@ h1, h2{
     margin-left: 30px;
 }
 
+#header{
+  background-color: #FFF;
+}
+
 /* navigation links */
 
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+    color: #000000;
 }
 
 #logo, #menu{
