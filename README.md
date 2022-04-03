@@ -22,4 +22,4 @@ python -m http.server --bind 127.0.0.1 8000
 
 Frontend - using html, css and responsive media queries
 
-pip install -r requirements.txt
+pip install -r requirements.txt if you are using python or similar and you need the extra tools
