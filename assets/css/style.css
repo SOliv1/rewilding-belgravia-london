@@ -18,6 +18,10 @@ h2{
     color: #555555;
 }
 
+.text-dark {
+  color: #111112 !important;
+}
+
 #logo{
     float: left;
     font-size: 280%;

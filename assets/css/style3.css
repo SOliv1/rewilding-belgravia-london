@@ -240,7 +240,7 @@ hr {
     position: relative;
 }
 
-footer{
+.footer{
     height: 150px;
 }
 
@@ -297,6 +297,7 @@ footer{
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 
 .text-input {
     background: transparent;
