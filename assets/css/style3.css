@@ -21,6 +21,15 @@ h1, h2{
     color: #252525;
 }
 
+/* Cover Link*/
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+    color: #fff;
+    text-decoration-skip-ink: none;
+}
+
+
 #logo{
     float: left;
     font-size: 280%;
