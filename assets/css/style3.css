@@ -422,3 +422,12 @@ hr {
         column-count: 2;
     }
 }
+
+/* media only screen max width 480px */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    .page-title {
+    width: 270px;
+  }
+}
