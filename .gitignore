@@ -1,2 +1,7 @@
 env.py
+package-lock.json
+requirements.txt
+travis.yml
+!travis.yml
+.vscode-upload.json
 
