@@ -378,6 +378,10 @@ hr {
 
 /* blog titles */
 
+h3#cover-title {
+    color: #ffffff;
+}
+
 h3#blog-title {
   color: #ffffff;
 }
