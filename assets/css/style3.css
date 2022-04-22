@@ -107,13 +107,13 @@ h1, h2{
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(107, 210, 241, 0.38);
-    bottom: 30px;
+    bottom: 90px;
     right: 150px;
 
     position: absolute;
