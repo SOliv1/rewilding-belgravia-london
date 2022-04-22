@@ -157,6 +157,32 @@ hr {
     margin-bottom: 50px;
 }
 
+i#fa-download {
+    color: #000000;
+}
+/* download links for schools */
+
+a#schools a#phenology  {
+    color:rgb(148, 0, 211);
+    font-weight: 700;
+}
+
+span#bold {
+    color: darkviolet;
+    font-weight: bold;
+}
+
+a:not([href]):not([tabindex]) {
+    color: rgb(148, 0, 211);
+    text-decoration: none;
+}
+
+span#download-left {
+    color: black;
+    font-display: bold;
+    font-weight: 700;
+}
+
 .right-about-heading {
     width: 60%;
     float: left;
