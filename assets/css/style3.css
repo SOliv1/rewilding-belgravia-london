@@ -120,6 +120,14 @@ h1, h2{
 
 }
 
+/* button success */
+
+.btn-success {
+    color: #fff;
+    background-color: hsla(120,100%,50%,0.3);
+    border-color: #28a745;
+}
+
 /* Club ethos */
 
 #club-ethos{
