@@ -123,8 +123,8 @@ h1, h2{
 /* button success */
 
 .btn-success {
-    color: #fff;
-    background-color: hsla(120,100%,50%,0.3);
+    color: #000;
+    background-color: hsla(120,100%,40%,0.3);
     border-color: #28a745;
 }
 
