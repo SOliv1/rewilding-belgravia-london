@@ -281,6 +281,14 @@ span#download-left {
     color: #fafafa;
 }
 
+
+/* Meet img */
+
+
+img.meet {
+    width: 2em;
+}
+
 /* Footer */
 
 .shade {
