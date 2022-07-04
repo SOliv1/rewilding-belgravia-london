@@ -108,8 +108,8 @@ h1, h2{
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 350px;
-    height: 250px;
+    width: 365px;
+    height: 265px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -121,13 +121,24 @@ h1, h2{
 
 }
 
-/* button success */
+/* Buttons success  active */
 
 .btn-success {
     color: #000;
     background-color: hsla(120,100%,40%,0.3);
     border-color: #28a745;
 }
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: hsla(240, 76%, 43%, 0.3);
+    border-color: rgba(24, 24, 108, 0.624);
+}
+.
 
 /*
 .btn-success {
