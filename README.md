@@ -7,9 +7,11 @@
 [![Node.js CI](https://github.com/SOliv1/rewilding-london/actions/workflows/node.js.yml/badge.svg?branch=master&event=schedule)](https://github.com/SOliv1/rewilding-london/actions/workflows/node.js.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c6746cf3-9524-4f9d-820b-0ee94d1f32a8/deploy-status?branch=master-new)](https://app.netlify.com/sites/rewildingbelgravialondon/deploys)
 
-### Link to site can be viewed here
+### Link to sites can be viewed here
 
-  https://soliv1.github.io/rewilding-belgravia-london/
+  [live-site](https://soliv1.github.io/rewilding-belgravia-london/)
+  
+  [live-netlify-site](https://rewildingbelgravialondon.netlify.app/)
 
 This project template has been rebuilt following the **Code Institute Solutions
 templates by A. Greaves**
