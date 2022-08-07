@@ -14,7 +14,7 @@ body{
 
 /* headings and logo */
 
-h1, h2{
+h1, h2, h3, h4{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -64,6 +64,12 @@ h1, h2{
 
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+h4#https\:\/\/www\.wildinglondon\.com, 
+#west-logo {
+    float: right;
+    color: black;
 }
 
 /* Hero image and cover text */
@@ -120,6 +126,12 @@ h1, h2{
     position: absolute;
 
 }
+
+#cover-text, h4{
+    color:#fff;
+}
+
+
 
 /* Buttons success  active */
 
