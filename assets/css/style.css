@@ -250,7 +250,7 @@ footer{
 
 #hero-image-tributes {
     height: 600px;
-    width: 100%;
+    display:flex;
     background: url('../images/image002.jpg') no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
