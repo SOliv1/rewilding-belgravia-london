@@ -83,7 +83,8 @@ h2{
 
 
 
-#cover-text {
+#cover-text,
+#tributes {
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
@@ -92,7 +93,7 @@ h2{
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(107, 210, 241, 0.38);
     bottom: 30px;
     right: 150px;
     position: absolute;
@@ -241,9 +242,32 @@ footer{
     column-gap: 0px;
 }
 
-#photo img{
+
+#photo img {
     width: 100%;
+    
 }
+
+#hero-image-tributes {
+    height: 600px;
+    width: 100%;
+    background: url('../images/image002.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer-tributes {
+height:600px;
+width: 100%;
+overflow: hidden;
+position: relative;
+}
+
+
+
+   
+
 
 @media screen and (max-width: 1396px){
     #club-ethos{
