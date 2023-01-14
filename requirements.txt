@@ -1,5 +1,5 @@
 breezy==3.0.2
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 configobj==5.0.6
 dbus-python==1.2.16
