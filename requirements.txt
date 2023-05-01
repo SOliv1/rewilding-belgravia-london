@@ -6,7 +6,7 @@ dbus-python==1.2.16
 dnspython==2.1.0
 dulwich==0.19.15
 fastimport==0.9.8
-Flask==2.0.1
+Flask==2.3.2
 idna==2.8
 itsdangerous==2.0.1
 Jinja2==3.0.1
